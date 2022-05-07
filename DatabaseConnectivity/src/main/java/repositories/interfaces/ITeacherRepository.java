@@ -11,7 +11,7 @@ public interface ITeacherRepository extends IRepository<TeacherDTO> {
 
     /**
      * Returns a {@link List<TeacherDTO>} object containing objects representing
-     * records in the Teacher entity which academicRank is null
+     * records in the Teacher entity which academicRanks are null
      *
      * @return a new {@link List<TeacherDTO>}
      */

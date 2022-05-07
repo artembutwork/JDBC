@@ -11,7 +11,7 @@ public interface IPersonRepository extends IRepository<PersonDTO>{
 
     /**
      * Returns a {@link List<PersonDTO>} object containing objects representing
-     * records in the Person entity which name starts with the parameter
+     * records in the Person entity which names start with the parameter
      *
      * @param startsWith - the prefix of the person's name that must be in the records found
      *

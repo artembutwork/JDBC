@@ -11,7 +11,7 @@ public interface IGroupRepository extends IRepository<GroupDTO> {
 
     /**
      * Returns a {@link List<GroupDTO>} object containing objects representing
-     * records in the Group entity which type is the same as the parameter value
+     * records in the Group entity which types are the same as the parameter value
      *
      * @param type - the group type that the records found must be
      *

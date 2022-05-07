@@ -11,7 +11,7 @@ public interface IRoomRepository extends IRepository<RoomDTO> {
 
     /**
      * Returns a {@link List<RoomDTO>} object containing objects representing
-     * records in the Room entity which capacity within[lowerBound, upperBound]
+     * records in the Room entity which capacities within[lowerBound, upperBound]
      *
      * @param lowerBound - minimum permissible room capacity that must be in the records found
      * @param upperBound - maximum permissible room capacity that must be in the records found

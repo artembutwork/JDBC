@@ -11,7 +11,7 @@ public interface ISubjectRepository extends IRepository<SubjectDTO> {
 
     /**
      * Returns a {@link List<SubjectDTO>} object containing objects representing
-     * records in the Subject entity which acronym length equals 3
+     * records in the Subject entity which acronyms length equal 3
      *
      * @return a new {@link List<SubjectDTO>}
      */
