@@ -1,7 +1,7 @@
 
 An application which stores data in a relational database for university with JDBC
 
-Application data stored in schema as depicted below: 
+Application data stored in scheme as depicted below: 
 ![scheme](https://github.com/artembutwork/JDBC/blob/main/DatabaseConnectivity/data/mssql/scheme.png)
 
 The database is to contain data on all students, lecturers, subjects taught and classrooms at the school. The information contained in the database is to allow for preparation of a timetable and registration of grades obtained by students in individual subjects.
@@ -30,4 +30,4 @@ Compiling the project:
 2. Run the data/mssql/setup.sql file to create a test database and add linked entities to it.
 3. Change the link to connect to the server, remembering to specify your login and password.
 
-Now you can start testing methods which will work with the entities in the database. Each method, which performs the basic functions (CRUD), as well as the unique functions of the entities, has a unit test. The sequential execution of test methods ( add() -> update() -> delete() ) for any of the entities will result in adding a record -> its updating -> its removing from the entity. Method with unique entity function and findById() method add test data -> test it -> delete added information
+Now you can start testing methods which will work with the entities in the database. Each method, which performs the basic functions (CRUD), as well as the unique functions of the entities, has a unit test. The sequential execution of test methods ( add() -> update() -> delete() ) for any of the entities will result in adding a record -> its updating -> its removing from the entity. Method with unique entity function and findById() method add test data -> test it -> delete added information.
